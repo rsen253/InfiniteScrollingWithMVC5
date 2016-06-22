@@ -1,0 +1,141 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+.HeaderContent{
+   padding-left:0;
+   padding-right:0;
+}
+.siteInformation
+{
+    background-color: #26211d;
+    height : 75px;
+    padding: 7px 0px 0px 0px;
+}
+.logo{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    letter-spacing:2px;
+}
+.logo a
+{
+    color: #fff;
+}
+.logo a:hover,
+.logo a:focus
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul{
+    list-style: none;
+}
+.socialIcon ul li {
+    display: inline;
+    font-size: 20px;
+    padding-left:20px;
+    
+}
+.socialIcon
+{
+    padding-top:16px;
+}
+.socialIcon ul li a{
+    color: #4d4641;
+    transition: color 0.5s ease;
+}
+.socialIcon ul li a:hover{
+    color: #ffffff;
+
+
+}
+.volunteerBtn{
+    border: 1px solid #4d4641;
+    height: 40px;
+    width: 63%;
+    padding-top: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
+}
+.col-md-3 a{
+    color : #ffffff;
+}
+.col-md-3 a:hover{
+    /*color : #ecc731;*/
+    text-decoration: none;
+}
+.volunteerBtn:hover
+{background-color : #ecc731;}
+.bemcomeVolunteerdiv
+{
+   padding-right: 0; 
+   padding-left: 0; 
+   margin-top: 6px;
+}
+/*
+    Media query for Header
+/**/
+/*@media only screen and (max-width : 999px){
+    .siteInformation
+{#e0bb24
+    background-color: #26211d;
+    height : 75px;
+    padding: 0;
+}
+    .socialIcon ul li {
+    display: inline;
+    font-size: 14px;
+    padding-left:0;
+    
+}
+    .volunteerBtn{
+    border: none;
+    height: 40px;
+    width: 100%;
+    padding-top: 8px;
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-weight: 400;
+    transition: background-color 0.5s ease;
+    
+}
+}*/
+/*
+    Add navbar style
+*/
+nav
+{
+    height: 50px;
+    background-color: #ecc731;
+    width: 100%;
+}
+.active
+{
+    background-color: #e0bb24;
+    font-weight : 600;
+    letter-spacing:1px;
+}
+.navbar-nav li a{
+    color : #ffffff;
+}
+.navbar-nav li a:hover{
+    background-color : #e0bb24
+}
+.navbar-form{
+    margin-top : 0;
+}
+.searchBox .form-control
+{
+   height: 50px;
+   background-color: #ecc731;
+   border:none;
+}
+.SearchBtn{
+  background-image: url(https://api.icons8.com/download/19343120d27c16dd3e9d21ad3aa637f94fd4d5fa/Android_L/PNG/256/Very_Basic/search-256.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 50px;
+  width: 200px;
+  border: none;
+}

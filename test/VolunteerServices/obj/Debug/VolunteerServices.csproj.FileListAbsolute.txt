@@ -1,0 +1,6 @@
+M:\MVC Application\VolunteerServices\VolunteerServices\bin\VolunteerServices.dll.config
+M:\MVC Application\VolunteerServices\VolunteerServices\bin\VolunteerServices.dll
+M:\MVC Application\VolunteerServices\VolunteerServices\bin\VolunteerServices.pdb
+M:\MVC Application\VolunteerServices\VolunteerServices\obj\Debug\VolunteerServices.csprojResolveAssemblyReference.cache
+M:\MVC Application\VolunteerServices\VolunteerServices\obj\Debug\VolunteerServices.dll
+M:\MVC Application\VolunteerServices\VolunteerServices\obj\Debug\VolunteerServices.pdb
