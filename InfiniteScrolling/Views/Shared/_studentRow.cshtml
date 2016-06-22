@@ -1,0 +1,9 @@
+﻿@model Dictionary<int, InfiniteScrolling.Models.Student>
+@foreach (var stu in Model)
+{
+    <tr>
+        <td>@stu.Key </td>
+        <td>@stu.Value.Name</td>
+        <td>@stu.Value.Email</td>
+    </tr>
+}
